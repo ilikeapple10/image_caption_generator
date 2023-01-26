@@ -13,8 +13,8 @@ This was a program i made to learn more about how CV and ML can be utilized in v
 <h3>I just want to run the program</h3>
 <ul>
   <li>
-    Run the caption_generator file.
-    *This will automatically use the model found in the <code>models</code> folder
+    Run the caption_generator file.<br>
+    This will automatically use the model found in the <code>models</code> folder
   </li>
 </ul>
 <br>
