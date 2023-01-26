@@ -21,7 +21,7 @@ This was a program i made to learn more about how CV and ML can be utilized in v
 <br>
 <h3>I want to train my own model</h3>
  
-In addition to the Flickr8k Dataset you will also ned to download the captions for the images:
+In addition to the Flickr8k Dataset you will also need to download the captions for the images:
 Flickr8k_text.zip https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_text.zip
 
 <ul>
