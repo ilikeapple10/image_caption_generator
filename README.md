@@ -5,6 +5,7 @@ This was a program i made to learn more about how CV and ML can be utilized in v
 <h2>Installation</h2>
 <ul>
   <li>clone the repo</li>
+  <li>Download the Flickr8k dataset: https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip</li>
   <li>use pip to install requirements</li>
 </ul>
 
@@ -19,6 +20,10 @@ This was a program i made to learn more about how CV and ML can be utilized in v
 </ul>
 <br>
 <h3>I want to train my own model</h3>
+ 
+In addition to the Flickr8k Dataset you will also ned to download the captions for the images:
+Flickr8k_text.zip https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_text.zip
+
 <ul>
   <li>Run the model_trainer file.</li>
  <li> The model will automatically be saved to the <code>models</code> folder and be named <code> model_x.h5 </code> where x is the amount of epochs.<br>
