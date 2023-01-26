@@ -40,7 +40,7 @@ def word_for_id(integer, tokenizer):
     return None
 
 def generate_desc(model, tokenizer, photo, max_length):
-    in_text = 'start'
+    in_text = '|start|'
     for i in range(max_length):
         sequence = tokenizer.texts_to_sequences([in_text])[0]
         sequence = pad_sequences([sequence], maxlen=max_length)
