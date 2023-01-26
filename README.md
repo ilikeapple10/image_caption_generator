@@ -18,7 +18,6 @@ This was a program i made to learn more about how CV and ML can be utilized in v
   </li>
 </ul>
 <br>
-
 <h3>I want to train my own model</h3>
 <ul>
   <li>Run the model_trainer file.</li>
