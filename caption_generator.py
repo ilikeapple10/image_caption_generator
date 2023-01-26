@@ -56,7 +56,7 @@ def generate_desc(model, tokenizer, photo, max_length):
 
 max_length = 32
 tokenizer = load(open("tokenizer.p","rb"))
-model = load_model("models\\model_9.h5")
+model = load_model("models\\Dummy_Model.h5")
 xception_model = Xception(include_top=False, pooling="avg")
 photo = extract_features(img_path, xception_model)
 description = generate_desc(model, tokenizer, photo, max_length)
